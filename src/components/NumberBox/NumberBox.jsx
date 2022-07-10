@@ -3,31 +3,8 @@ import "./NumberBox.css";
 
 import Number from "../Number/Number";
 
-const NumberBox = () => {
-  return (
-    <div className="number-box">
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-      <Number />
-    </div>
-  );
+const NumberBox = ({ children }) => {
+  return <div className="number-box">{children}</div>;
 };
 
 export default NumberBox;

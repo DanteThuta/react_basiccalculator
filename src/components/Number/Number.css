@@ -3,4 +3,7 @@
   height: 3rem;
 
   background-color: blue;
+  color: white;
+
+  cursor: pointer;
 }

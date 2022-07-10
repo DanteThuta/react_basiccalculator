@@ -5,4 +5,9 @@
   height: 500px;
 
   padding: 10px;
+
+  /* position: absolute; */
+  /* top: 30px; */
+  /* left: calc(100%-10px); */
+  /* left: 300px; */
 }
