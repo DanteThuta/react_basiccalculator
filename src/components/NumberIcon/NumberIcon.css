@@ -1,0 +1,32 @@
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 3rem;
+  height: 3rem;
+
+  background-color: blue;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.number:hover {
+  background-color: rgb(98, 131, 238);
+
+  color: black;
+}
+
+.equals {
+  background-color: red;
+  width: 230%;
+  /* grid-column: 2/8; */
+}
+
+.equals:hover {
+  background-color: rgb(211, 94, 94);
+}

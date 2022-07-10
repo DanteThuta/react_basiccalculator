@@ -1,0 +1,17 @@
+.display {
+  background-color: #4c566a;
+
+  height: 5rem;
+
+  border: none;
+  border-radius: 6px 6px 0 0;
+  padding: 1rem 1rem 0 1rem;
+
+  text-align: end;
+  font-size: 3rem;
+  color: palegreen;
+
+  position: relative;
+  top: 30px;
+  overflow: hidden;
+}

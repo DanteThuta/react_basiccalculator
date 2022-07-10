@@ -1,7 +1,60 @@
-.App {
+.main-heading {
   text-align: center;
+  color: palegreen;
 
-  
+  overflow: hidden;
+  /* border-right: 0.3rem solid black; */
+  white-space: nowrap;
+
+  /* background-color: coral; */
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 1rem 0;
+
+  /* animation: 3s ease-in; */
+  animation: typer 1s steps(20, end) forwards, headBackColor 3s;
+  /* animation: ; */
+}
+
+@keyframes headBackColor {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: coral;
+  }
+}
+
+.cursor {
+  width: 2px;
+  height: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typer {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .App-logo {

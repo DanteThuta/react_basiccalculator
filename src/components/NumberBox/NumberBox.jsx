@@ -1,11 +1,11 @@
 import React from "react";
 import "./NumberBox.css";
 
-import Number from "../Number/Number";
+import Number from "../NumberIcon/NumberIcon";
 
-const NumberBox = ({ children }) => {
+function NumberBox({ children }) {
 
   return <div className="number-box">{children}</div>;
-};
+}
 
 export default NumberBox;
